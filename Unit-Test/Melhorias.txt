@@ -1,0 +1,5 @@
+Algumas possíveis melhorias poderiam ser:
+
+	Uso de tipos genéricos: O uso de tipos genéricos, como ArrayList<Carta>, em vez de Vector ou Vector<Carta>, tornaria o código mais flexível e seguro.
+
+	Uso de enum para naipes e valores: Em vez de usar valores inteiros para representar naipes e valores das cartas, é recomendado usar enums para melhorar a legibilidade e facilitar a manutenção do código.
