@@ -112,6 +112,10 @@ public class Board {
         }
         return 0;
     }
+
+    public boolean checkDraw() {
+        return (Board[0][0] == Board[2][0] && Board[0][0] == Board[1][1] && Board[0][0] == Board[1][2]) && (Board[0][2] == Board[1][0] && Board[0][2] == Board[2][2]);
+    }
     
     public boolean fullBoard() {
         for (int line = 0; line < 3; line++) {
